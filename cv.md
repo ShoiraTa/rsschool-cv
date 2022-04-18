@@ -33,4 +33,20 @@ May, 2021 – Sep 2021
 - Implemented new features or improved UI/UX on existing Shopify themes
 Optimize and redesign stores for established brands.
 
+#### Education
+
+###### MICROVERSE 
+Remote Full-stack Web Development Program | Full Time	
+- Learnt the core fundamentals of Full stack web development: HTML/CSS, Ruby, Ruby On Rails, React, NodeJs, Express & MongoDB, while enrolled in an extremely selective (.3% acceptance rate) full-time development program
+- Completed 2000+ development hours pair-programming with students from different countries while also following agile methodologies
+- Built 90+ projects ranging from mini projects to complex full stack applications
+
+###### Samarkand State University of Foreign Languages
+ 
+English Language and literature
+
+##### English
+
+IELTS certified C1 level
+
 
