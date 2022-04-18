@@ -1,6 +1,6 @@
 # SHOIRA SHAKIROVNA
 
-### Full-stack web developer
+### Full-stack web developer 
 
 <img src="https://user-images.githubusercontent.com/77038610/163835857-948b17d0-80e5-4b5e-8ebf-91f03458d196.jpeg" width="200">
 
@@ -12,11 +12,11 @@
 - Portfolio: [shoirashakirova](https://shoirashakirova.herokuapp.com/)
 
 ## SUMMARY
-I'm passionate about bringing both the technical and visual aspects of digital products to life. User experience, beautiful pixels and writing clean accessible, human code matters to me. I believe that less is more. I am currently enrolled in a remote software development school. I have a number of projects developed using Javascript, React, Redux, and Rails.
+> I'm passionate about bringing both the technical and visual aspects of digital products to life. User experience, beautiful pixels and writing clean accessible, human code matters to me. I believe that less is more. I am currently enrolled in a remote software development school. I have a number of projects developed using Javascript, React, Redux, and Rails.
 
-I have experience working as a Full-stack engineer in an IT company where I was developing and maintaining eCommerce websites on Shopify. I'm currently strengthening my back-end development skills.
+> I have experience working as a Full-stack engineer in an IT company where I was developing and maintaining eCommerce websites on Shopify. I'm currently strengthening my back-end development skills.
 
-I'm happiest when I'm creating, learning, exploring and thinking about how to make things better.
+> I'm happiest when I'm creating, learning, exploring and thinking about how to make things better.
 
 
 ## SKILLS
