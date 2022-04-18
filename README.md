@@ -1,1 +1,1 @@
-[Live link](https://shoirata.github.io/rsschool-cv/cv)
+[Live link](https://GITHUB-USERNAME.github.io/rsschool-cv/)
