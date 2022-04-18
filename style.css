@@ -221,6 +221,7 @@ a,
 
 footer {
   background-color: var(--yellow);
+  padding: 0.3rem;
 }
 
 .footer-links-container {
