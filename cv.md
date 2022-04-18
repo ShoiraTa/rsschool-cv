@@ -11,16 +11,16 @@
 - Linkedin: [@shoira-ta](https://www.linkedin.com/in/shoira-ta/)
 - Portfolio: [shoirashakirova](https://shoirashakirova.herokuapp.com/)
 
-#### Summary
+### SUMMARY
 Full-stack developer with a love for clean code and accessible design. Pair-programming and remote work aficionado. Fluent in multiple languages, frameworks, and technologies, and capable of ramping up quickly and efficiently.
 
-#### Skills
+### SKILLS
 **Front-End:** JavaScript, React, Redux, jQuery, HTML5, CSS3
 **Back-End:** MySQL, Ruby,  Ruby on Rails, Express, Restful APIs, Postgres,MySql 
 **Tools & Methods:** Git, GitHub, Heroku, Netlify, Responsive Development, RSpec, TDD, Webpack
 **Professional:** Remote Pair-Programming, Teamwork, Mentoring
 
-#### EXPERIENCE
+### EXPERIENCE
 **MICROVERSE** |	Remote | Part time TSE 
 Nov, 2021 - until now
 -  Performed 100s of code reviews in HTML, Ruby & Javascript based projects for over 100+ junior developers and ensured best coding practices.
@@ -33,7 +33,13 @@ May, 2021 – Sep 2021
 - Implemented new features or improved UI/UX on existing Shopify themes
 Optimize and redesign stores for established brands.
 
-#### Education
+### Project Examples
+- [Vacayhome](https://github.com/ShoiraTa/Vacayhome-front-end) -  A Web Appilcation where users can make a reservation for their vacation accommodation.
+- [Crypto-dashboard](https://github.com/ShoiraTa/crypto-dashboard) - Platform for cryptocurrency enthusiasts where users can get statistics on any cryptocurrency. News and cryptocurrencies can be filtered. The page is responsive and build using latest React libraries.
+- [Recipe-app](https://github.com/ShoiraTa/RecipeApp) - Web application based on an external API. The web application has 2 user interfaces, where  users can like favorite meals and leave comments. 
+
+
+### EDUCATION
 
 ###### MICROVERSE 
 Remote Full-stack Web Development Program | Full Time	
@@ -45,8 +51,9 @@ Remote Full-stack Web Development Program | Full Time
  
 English Language and literature
 
-##### English
+### Languages
 
-IELTS certified C1 level
+English - IELTS certified C1 level
+Russian - Fluent
 
 
