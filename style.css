@@ -212,6 +212,10 @@ h2 {
   margin: 0.8rem 0;
 }
 
+h5{
+  display: inline;
+}
+
 .profile-container, 
 .code-container,
 .experience-container {

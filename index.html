@@ -33,7 +33,7 @@
       </nav>
   </header>
   <main>
-    <section class="left-col bg-dark text-light">
+    <div class="left-col bg-dark text-light">
       <div class="about-info-container">
         <div class="white-divider"></div>
         <h2 class="text-yellow">Education</h2>
@@ -74,11 +74,11 @@
         <h2>SKILLS</h2>
         <div class="skills-container"> 
           <ul class="ul-skills">
-            <li><strong>Front-End:</strong> JavaScript, React, Redux, jQuery, HTML5, CSS5.</li>
-            <li><strong>Back-End:</strong> MySQL, Ruby, Ruby on Rails, Express, Restful APIs. </li>
-            <li><strong>Tools & Methods:</strong> Git, GitHub, Heroku, RSpec, TDD, Webpack.
+            <li><h5>Front-End:</h5> JavaScript, React, Redux, jQuery, HTML5, CSS5.</li>
+            <li><h5>Back-End:</h5> MySQL, Ruby, Ruby on Rails, Express, Restful APIs. </li>
+            <li><h5>Tools & Methods:</h5> Git, GitHub, Heroku, RSpec, TDD, Webpack.
               </li>
-            <li><strong>Professional:</strong> Pair-Programming, Teamwork, Mentoring.</li>
+            <li><h5>Professional:</h5> Pair-Programming, Teamwork, Mentoring.</li>
           </ul>
         </div>
       </article>
@@ -92,7 +92,7 @@
                   <code>
     function hashTable(arr) {
       var hash = [];
-      for (i = 0; i < arr.length; i++) {
+      for (i = 0; i <&lt;arr.length; i++) {
         let value = arr[i];
         const key = Math.abs(value) % 11
         if( !hash[key] ){
@@ -114,9 +114,9 @@
           <div>
             <h4>Part time TSE</h4>
             <div class="job-info">
-              <div>
+              <h3>
                 <span>MICROVERSE</span> | <span>REMOTE</span>
-              </div>
+              </h3>
               <span>Nov, 2021 - until now</span>
             </div>
             <p>
@@ -127,9 +127,9 @@
           <div class="mt-1">
             <h4>Front-end engineer</h4>
             <div class="job-info">
-              <div>
+              <h3>
                 <span>LLAMA COMMERCE</span> | <span>REMOTE</span>
-              </div>
+              </h3>
               <span>May, 2021 – Sep 2021</span>
               
             </div>
@@ -141,7 +141,7 @@
           </div>
         </div>
       </article>
-    </section>
+    </div>
   </main>
   <footer>
     <div class="footer-links-container">
