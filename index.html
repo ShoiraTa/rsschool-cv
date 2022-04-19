@@ -84,6 +84,31 @@
       </article>
       <article>
         <div class="dark-divider"></div>
+          <div class="code-container">
+            <h2>CODE EXAMPLE</h2>
+            <div>
+              <h4>The Solution of the Hash Table challange</h4>
+                <pre>
+                  <code>
+    function hashTable(arr) {
+      var hash = [];
+      for (i = 0; i < arr.length; i++) {
+        let value = arr[i];
+        const key = Math.abs(value) % 11
+        if( !hash[key] ){
+          hash[key] = [value]  
+        }
+        else { hash[key].push(value) }
+      }
+      return hash.flat();
+    }
+                </code>
+              </pre>
+            </div>
+          </div>
+      </article>
+      <article>
+        <div class="dark-divider"></div>
         <div class="experience-container">
           <h2>WORK EXPERIENCE</h2>
           <div>
@@ -112,7 +137,6 @@
               Worked closely with the team to help our clients launch highly functional, often complex Shopify stores.
               Implement new features or improved UI/UX on existing Shopify themes
               Optimized and redesign stores for established brands.
-        
             </p>
           </div>
         </div>
