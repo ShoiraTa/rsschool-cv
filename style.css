@@ -33,6 +33,10 @@ span {
   letter-spacing: 0;
 }
 
+h2{
+  font-size: 1.2rem;
+}
+
 h4 {
   font-size: 0.9rem;
 }
@@ -106,6 +110,8 @@ h4 {
 
 h3 {
   margin: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 200;
 }
 
 nav {
