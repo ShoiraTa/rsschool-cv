@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/9875f697fa.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/36c60608a5.js" crossorigin="anonymous"></script>
+  <title>Web developer</title>
+</head>
+<body>
+  <header>
+    <div class="header-info">
+      <div class="bg-dark">
+        <div class="img-container">
+          <img src="./img/prof-pic.jpeg" alt="profile-img">
+        </div>
+      </div>
+      <div class="header-about">
+        <h1 class="text-dark">SHOIRA SHAKIROVNA</h1>
+        <h3 class="text-dark">WEB DEVELOPER</h3>
+      </div>
+    </div>
+      <nav>
+        <ul class="header-ul">
+          <li class="text-dark"><i class="fa-solid fa-phone"></i>+99897 916 20 64</li>
+          <li  class="text-dark"><i class="fa-solid fa-message"></i>shoira.shakirovna@gmail.com</li>
+          <li  class="text-dark"><i class="fa-solid fa-house"></i>12/2 Shaxristanskaya str., Tashkent</li>
+        </ul>
+      </nav>
+  </header>
+  <main>
+    <section class="left-col bg-dark text-light">
+      <div class="about-info-container">
+        <div class="white-divider"></div>
+        <h2 class="text-yellow">Education</h2>
+        <p class="text-light">MICROVERSE</p>
+        <span class="text-light">Feb, 2021 to Apr, 2022</span>
+        <p class="text-light">Full-stack Web Development </p>
+      </div>
+      <div class="about-info-container">
+        <div class="white-divider"></div>
+        <h2 class="text-yellow">Languages</h2>
+        <ul class="languages">
+          <li>English - C1</li>
+          <li>Russian - C2</li>
+          <li>Uzbek - C2</li>
+        </ul>
+      </div>
+      <div class="about-info-container">
+        <div class="white-divider"></div>
+        <h2 class="text-yellow">Links</h2>
+        <ul>
+          <li><a href="https://github.com/ShoiraTa">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/shoira-ta/">Linkedin</a></li>
+          <li><a href="https://shoirashakirova.herokuapp.com/">Portfolio</a></li>
+          <li><a href="https://github.com/ShoiraTa/Vacayhome-front-end">Project Exapmle</a></li>
+          <li><a href="https://github.com/ShoiraTa/my-portfolio/blob/main/src/components/Experience.js">Code Exapmle</a></li>
+        </ul>
+      </div>
+
+    </section>
+    <div class="right-col text-dark">
+      <article class="profile-container mb-1 mt-1">
+        <div class="dark-divider"></div>
+        <h2>PROFILE</h2>
+        <p >Full-stack developer with a love for clean code and accessible design. Pair-programming and remote work aficionado. Fluent in multiple languages, frameworks, and technologies, and capable of ramping up quickly and efficiently.</p>
+      </article>
+      <article class="profile-container mb-1 mt-1">
+        <div class="dark-divider"></div>
+        <h2>SKILLS</h2>
+        <div class="skills-container"> 
+          <ul class="ul-skills">
+            <li><h5>Front-End:</h5> JavaScript, React, Redux, jQuery, HTML5, CSS5.</li>
+            <li><h5>Back-End:</h5> MySQL, Ruby, Ruby on Rails, Express, Restful APIs. </li>
+            <li><h5>Tools & Methods:</h5> Git, GitHub, Heroku, RSpec, TDD, Webpack.
+              </li>
+            <li><h5>Professional:</h5> Pair-Programming, Teamwork, Mentoring.</li>
+          </ul>
+        </div>
+      </article>
+      <article>
+        <div class="dark-divider"></div>
+          <div class="code-container">
+            <h2>CODE EXAMPLE</h2>
+            <div>
+              <h4>The Solution of the Hash Table challange</h4>
+                <pre>
+                  <code>
+    function hashTable(arr) {
+      var hash = [];
+      for (i = 0; i &lt; arr.length; i++) {
+        let value = arr[i];
+        const key = Math.abs(value) % 11
+        if( !hash[key] ){
+          hash[key] = [value]  
+        }
+        else { hash[key].push(value) }
+      }
+      return hash.flat();
+    }
+                </code>
+              </pre>
+            </div>
+          </div>
+      </article>
+      <article>
+        <div class="dark-divider"></div>
+        <div class="experience-container">
+          <h2>WORK EXPERIENCE</h2>
+          <div>
+            <h4>Part time TSE</h4>
+            <div class="job-info">
+              <h3>
+                <span>MICROVERSE</span> | <span>REMOTE</span>
+              </h3>
+              <span>Nov, 2021 - until now</span>
+            </div>
+            <p>
+              Performed 100s of code reviews in HTML, Ruby & Javascript based projects for over 100+ junior developers and ensured best coding practices.
+              Provide specialized technical advice and guidance to multiple junior developers over 1:1 video calls and chat.            
+            </p>
+          </div>
+          <div class="mt-1">
+            <h4>Front-end engineer</h4>
+            <div class="job-info">
+              <h3>
+                <span>LLAMA COMMERCE</span> | <span>REMOTE</span>
+              </h3>
+              <span>May, 2021 – Sep 2021</span>
+              
+            </div>
+            <p>
+              Worked closely with the team to help our clients launch highly functional, often complex Shopify stores.
+              Implement new features or improved UI/UX on existing Shopify themes
+              Optimized and redesign stores for established brands.
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-links-container">
+      <a href="https://github.com/ShoiraTa">Github</a>
+      <span>Apr. 18 2022</span>
+      <a  href="https://rs.school/"><img class="rs-logo" src="./img/background.svg" alt="rs-school logo"></a>
+    </div>
+  </footer>
+</body>
+</html>

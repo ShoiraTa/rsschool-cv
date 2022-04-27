@@ -1,0 +1,274 @@
+:root {
+  --yellow: #d8a060;
+  --white: #fff;
+  --blue: #3a3e47;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  max-width: 841px;
+  margin: auto;
+  border: 1px solid var(--blue);
+}
+
+li {
+  padding: 4px 0;
+}
+
+p,
+span {
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--blue);
+}
+
+h4,
+.header-ul,
+li,
+strong,
+p,
+.ul-skills li,
+span {
+  letter-spacing: 0;
+}
+
+h2{
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 0.9rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Helpers */
+.bg-dark {
+  background-color: var(--blue);
+}
+
+.text-dark {
+  color: var(--blue);
+}
+
+.text-light {
+  color: var(--white);
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+/* end helpers */
+
+/* Header */
+.header-info {
+  height: 170px;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.img-container img {
+  width: 120px;
+  border-radius: 100%;
+  border: 1px solid white;
+  padding: 0.5rem;
+}
+
+.header-about {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h1,
+p,
+h4 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+nav {
+  background-color: var(--yellow);
+  height: 80px;
+}
+
+.header-ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.fa-solid {
+  padding: 4px;
+  border: 1.5px solid var(--blue);
+  margin-right: 0.6rem;
+}
+
+/* Main */
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+
+.white-divider {
+  height: 0.4rem;
+  width: 5rem;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+
+.dark-divider {
+  height: 0.4rem;
+  width: 5rem;
+  background-color: var(--blue);
+  border-radius: 5px;
+}
+
+.left-col,
+.right-col {
+  padding: 1rem;
+}
+
+.text-yellow {
+  font-weight: 400;
+  color: var(--yellow);
+  margin: 0.8rem 0 0.6rem;
+}
+
+.left-col span,
+.left-col p {
+  font-weight: 200;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+.about-info-container {
+  padding: 0.9rem;
+}
+
+.ul-skills {
+  margin: 0.5rem 0;
+}
+
+strong {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.ul-skills strong {
+  font-weight: 600;
+}
+
+.ul-skills li {
+  font-size: 13px;
+}
+
+
+
+/* profile-container */
+
+.job-info {
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.experience-container p {
+  padding: 0.7rem 0;
+}
+
+h2 {
+  margin: 0.8rem 0;
+}
+
+h5{
+  display: inline;
+}
+
+.profile-container, 
+.code-container,
+.experience-container {
+  margin-bottom: 2.5rem;
+}
+
+a,
+.languages li {
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 200;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--yellow);
+  padding: 0.3rem;
+}
+
+.footer-links-container {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.footer-links-container a {
+  color: var(--blue);
+  letter-spacing: 0;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.rs-logo{
+  width:60px;
+  height:40px;
+}
+
+pre{
+  background-color: #d3d4d7;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 770px) {
+  .header-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1rem;
+  }
+
+  nav {
+    height: auto;
+  }
+}
